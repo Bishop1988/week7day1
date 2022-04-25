@@ -14,8 +14,8 @@ const app = (yargsObj) => {
     } else if (yargsObj.addMany) {
         const movie1 = new Movie(yargsObj.title, yargsObj.actor, yargsObj.genre, yargsObj.rating)
         const movie2 = new Movie(yargsObj.title, yargsObj.actor, yargsObj.genre, yargsObj.rating)
-        movie1.add()
-        movie2.add()
+        movie1.add1()
+        movie2.add2()
     }  else {
         console.log("Incorrect Command")
     }
