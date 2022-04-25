@@ -1,6 +1,9 @@
 // create a empty array to store data
 const movieArr = []
 
+const movie1Arr = []
+const movie2Arr = []
+
 const foodArr = []
 
 // create Move class for title and actor object
@@ -15,6 +18,12 @@ class Movie {
     // small function to add cli input to the movieArr
     add() {
         movieArr.push(this)
+    }
+    add1() {
+        movie1Arr.push(this)
+    }
+    add2() {
+        movie2Arr.push(this)
     }
 }
 
