@@ -1,0 +1,23 @@
+{
+  "name": "quicknoderefresher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bishop1988/week7day1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bishop1988/week7day1/issues"
+  },
+  "homepage": "https://github.com/Bishop1988/week7day1#readme",
+  "dependencies": {
+    "yargs": "^17.4.1"
+  }
+}
