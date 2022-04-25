@@ -1,22 +1,22 @@
 // create a empty array to store data
-// const movieArr = []
+const movieArr = []
 
 const foodArr = []
 
 // create Move class for title and actor object
 // 'this' keyword refers to the object it belongs to 
-// class Movie {
-//     constructor(title, actor = "Not specified", genre, rating) {
-//         this.title = title
-//         this.actor = actor
-//         this.genre = genre
-//         this.rating = rating
-//     }
-//     // small function to add cli input to the movieArr
-//     add() {
-//         movieArr.push(this)
-//     }
-// }
+class Movie {
+    constructor(title, actor = "Not specified", genre, rating) {
+        this.title = title
+        this.actor = actor
+        this.genre = genre
+        this.rating = rating
+    }
+    // small function to add cli input to the movieArr
+    add() {
+        movieArr.push(this)
+    }
+}
 
 class Food {
     constructor(food, price, color, isGood) {
@@ -32,8 +32,8 @@ class Food {
 }
 
 module.exports = {
-    // Movie,
-    // movieArr
+    Movie,
+    movieArr,
 
     Food,
     foodArr
